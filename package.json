@@ -18,7 +18,7 @@
     "stop-api": "pkill covalent-data",
     "webdriver-update": "bash ./node_modules/.bin/webdriver-manager update",
     "test": "ng test --code-coverage --single-run",
-    "ghpages-deploy": "ng build --base-href /covalent-quickstart/ --aot -prod && bash scripts/ghpages-deploy"
+    "ghpages-deploy": "ng build --base-href /NG2MaterialDemo/ --aot -prod && bash scripts/ghpages-deploy"
   },
   "engines": {
     "node": ">4.4 < 7",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teradata/covalent-quickstart.git"
+    "url": "https://github.com/BartNetJS/NG2MaterialDemo.git"
   },
   "license": "MIT",
   "author": "Teradata UX",
